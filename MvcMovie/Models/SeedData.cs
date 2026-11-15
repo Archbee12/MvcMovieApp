@@ -47,6 +47,38 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("1959-4-15"),
                     Genre = "Western",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "When Harry Met Sally",
+                    ReleaseDate = DateTime.Parse("1989-1-11"),
+                    Genre = "Romantic Comedy",
+                    Rating = "R",
+                    Price = 7.99M
+                },
+                new Movie
+                {
+                    Title = "The Godfather",
+                    ReleaseDate = DateTime.Parse("1972-3-24"),
+                    Genre = "Crime",
+                    Rating = "R",
+                    Price = 9.99M
+                },
+                new Movie
+                {
+                    Title = "The Dark Knight",
+                    ReleaseDate = DateTime.Parse("2008-7-18"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 12.99M
+                },
+                new Movie
+                {
+                    Title = "The Intern",
+                    ReleaseDate = DateTime.Parse("2015-09-25"),
+                    Genre = "Comedy",
+                    Rating = "PG-13",
+                    Price = 8.99M
                 }
             );
             context.SaveChanges();
